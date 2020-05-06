@@ -22,7 +22,6 @@ export default {
     bottom:0;
     height: 70px;
 	}
-
 	.footer-wrap .footer {
 		width: 1024px;
 		margin: 0 auto;

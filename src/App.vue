@@ -7,22 +7,17 @@
 </template>
 <script>
     import Vue from 'vue'
-
     import Header from "@/components/club-face/common/Header"
     import Footer from "@/components/club-face/common/Footer"
     import Home from "@/components/club-face/home/Home"
-
-
     export default {
         name: 'App',
         components: {
             "v-header": Header,
             "v-footer": Footer
         }
-
     }
 </script>
-
 <style scoped="scoped">
     .main {
         /* background-color: #E9EEF3; */
@@ -40,7 +35,6 @@
             top: 0;
             bottom: 0;
         }
-
     }
     @media screen and (min-width: 1196px){
         .main{

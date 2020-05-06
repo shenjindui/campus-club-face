@@ -7,7 +7,6 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css'; // 默认主题
 // import '../static/css/theme-green/index.css';// 浅绿色主题
 import './assets/css/icon.css';
-/*import './components/common/directives';*/
 import "babel-polyfill";
 import SlideVerify from 'vue-monoplasty-slide-verify';
 import Loading  from 'element-ui';
@@ -55,7 +54,9 @@ axios.interceptors.response.use(undefined, function axiosRetryInterceptor(err) {
  * @type {string}
  */
 axios.default.baseURL = 'http://localhost:8889'
-//使用钩子函数对路由进行权限跳转
+/**
+ * 使用钩子函数对路由进行权限跳转
+ */
 router.beforeEach((to, from, next) => {
     //这边可以用match()来判断所有需要权限的路径，to.matched.some(item => return item.meta.loginRequire)
     next();

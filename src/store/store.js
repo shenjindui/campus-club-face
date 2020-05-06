@@ -7,10 +7,16 @@ export default {
     },
 
     fetchIDlist(IDLIST_KEY) {
+        if(IDLIST_KEY!=null){
+            return JSON.parse(window.localStorage.getItem(IDLIST_KEY) || '[]');
+        }
+        return null;
 
-        return JSON.parse(window.localStorage.getItem(IDLIST_KEY) || '[]');
     }
     ,
+    clear(){
+        window.localStorage.clear();
+    },
 
     getMenuList(menuList){
 

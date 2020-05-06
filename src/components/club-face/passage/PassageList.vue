@@ -128,7 +128,6 @@ export default {
 		}
 	},
 	created() {
-		//alert(this.passageTypeId);
 		if(this.passageTypeId==null||this.passageTypeId==''){
 			this.passageTypeId=1;
 		}
@@ -145,7 +144,6 @@ export default {
 	}
 };
 </script>
-
 <style scoped="scoped">
 .site-nav {
 	float: left;

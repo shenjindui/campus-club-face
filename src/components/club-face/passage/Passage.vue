@@ -120,10 +120,6 @@ export default {
 							this.stInfo=res.data.data;
 							console.log("社团详情"+JSON.stringify(res.data))
 							this.stBestMembers=this.stInfo.stBestMembers;
-							/*this.fileList = res.data.data.grid.list;
-							this.total='';
-							this.total=res.data.data.grid.total;
-							console.log(JSON.stringify(this.fileList));*/
 						} else if(res.data.status == 400){
 							this.$message({
 								message: "暂无此社团数据",
@@ -149,18 +145,12 @@ export default {
 	watch: {
 		$route(to, from) {
 			var id = this.$route.params.id;
-			/*alert(id)
-			switch (id) {
-				case 1:this.get(5);break;
-				case 2:this.getStInfo();break;
-			}*/
 			this.get(5);
 			this.typeId=id;
 		}
 	}
 };
 </script>
-
 <style scoped="scoped">
 .title {
 	display: block;
@@ -237,5 +227,4 @@ export default {
 	.footer{
 		margin-top: 180px;
 	}
-
 </style>

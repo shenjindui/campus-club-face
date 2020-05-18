@@ -176,15 +176,15 @@ a {
 						社团反馈
 					</template>
 					<el-menu-item index="7-1">
-						<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2802630961&site=qq&menu=yes">
-							<img border="0" src="http://wpa.qq.com/pa?p=2:2802630961:51" alt="点击这里给我发消息" title="QQ交流" />
+						<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1647262043&site=qq&menu=yes">
+							<img border="0" src="http://wpa.qq.com/pa?p=2:1647262043:51" alt="点击这里给我发消息" title="QQ交流" />
 						</a>
 					</el-menu-item>
-					<el-menu-item index="7-2">
+					<!--<el-menu-item index="7-2">
 						<a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=d0VPR0NAQENPT0U3BgZZFBga" style="text-decoration:none;">
 							<img src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_02.png" />
 						</a>
-					</el-menu-item>
+					</el-menu-item>-->
 				</el-submenu>
 				<el-menu-item index="8" class="rightMenu"><a href="#" @click="goAdminUrl">登录</a></el-menu-item>
 			</el-menu>
